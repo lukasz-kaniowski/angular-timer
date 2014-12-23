@@ -15,6 +15,7 @@ var timerModule = angular.module('timer', [])
         startTimeAttr: '=startTime',
         endTimeAttr: '=endTime',
         countdownattr: '=countdown',
+        countdown: '=',
         finishCallback: '&finishCallback',
         autoStart: '&autoStart',
         maxTimeUnit: '='
